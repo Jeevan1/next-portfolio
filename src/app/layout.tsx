@@ -1,12 +1,16 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
-  title: "Jeevan Shrestha",
-  description: "Software Developer",
+  title: {
+    default: "Jeevan Shrestha | Frontend Developer",
+    template: "%s - Jeevan Shrestha | Frontend Developer",
+  },
+
+  description: "Hi I'm Jeevan Shrestha, a software develope ",
+  icons: {
+    icon: "/assets/favicon.ico",
+  },
 };
 
 export default function RootLayout({
@@ -16,7 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>
+        {children}
+        <script src="https://kit.fontawesome.com/d95f511298.js"></script>
+      </body>
     </html>
   );
 }
