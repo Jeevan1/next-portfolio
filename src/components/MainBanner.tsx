@@ -14,10 +14,11 @@ function MainBanner() {
                 Developer
               </h2>
               <p>
-                Passionate self-taught developer with internship experience,
-                dedicated to crafting visually appealing and functional user
-                interfaces. Seeking front-end opportunities in a dynamic
-                organization, focused on innovation and continuous learning.
+                Hi, I'm Jeevan Shrestha, a software developer specializing in
+                creating seamless and optimized web applications. With a passion
+                for front-end development, I focus on delivering visually
+                stunning and highly functional user interfaces. I'm always eager
+                for opportunities to grow and innovate in a dynamic environment.
               </p>
               <form action="">
                 <div className="form__input">

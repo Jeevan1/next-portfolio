@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export const metadata: Metadata = {
   title: {
@@ -7,7 +9,7 @@ export const metadata: Metadata = {
     template: "%s - Jeevan Shrestha | Frontend Developer",
   },
 
-  description: "Hi I'm Jeevan Shrestha, a software develope ",
+  description: "Hi I'm Jeevan Shrestha, a software developer ",
   icons: {
     icon: "/assets/favicon.ico",
   },

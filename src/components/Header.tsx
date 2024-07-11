@@ -63,7 +63,7 @@ function Header() {
         <div className="row">
           <div className="col-12">
             <nav className="main__nav flex items-center justify-between ">
-              <a href="#" className="logo p-3">
+              <Link href="#" className="logo p-3">
                 <Image
                   src="/assets/images/logo/logo.png"
                   alt="jdev"
@@ -71,31 +71,31 @@ function Header() {
                   width={100}
                   className="h-8"
                 />
-              </a>
+              </Link>
               <ul className="nav flex items-center space-x-4 md:space-x-2">
                 {navLinks.map((link, index) => (
-                  <li key={index} className="nav__links">
-                    <a
+                  <li key={index} className="nav__links w-[80px]">
+                    <Link
                       href={link.path}
                       className={`px-4 py-2 md:px-2 ${
                         link.active === "active" ? "active" : ""
                       }`}
                     >
                       {link.title}
-                    </a>
+                    </Link>
                   </li>
                 ))}
                 <li className="nav__links pl-5 md:pl-3">
                   <div className="main__red__button py-2">
-                    <a
+                    <Link
                       download="cv__jeevan__shrestha"
                       href={"/assets/cv/CV_JEEVAN_SHRESTHA.pdf"}
-                      className="bg-red-500 text-white px-4 py-3 rounded-md"
+                      className=""
                       target="_blank"
                       rel="noreferrer"
                     >
                       Download CV
-                    </a>
+                    </Link>
                   </div>
                 </li>
               </ul>

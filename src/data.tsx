@@ -75,7 +75,7 @@ export const about: About[] = [
     title: "Linkdn",
     detail: "Kathmandu, NP",
     icon: "fa-linkedin",
-    link: "",
+    link: "https://www.linkedin.com/in/jeevan-shrestha-34a3b01a5",
   },
 ];
 

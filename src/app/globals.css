@@ -331,7 +331,6 @@ header
 }
 .header__area .main__nav .nav .nav__links a,
 .header__area .main__nav .mobile__nav .nav__links a {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -357,7 +356,7 @@ header
   width: fit-content;
   background-color: #fe3f40;
   border-radius: 25px;
-  padding: 10px 20px;
+  padding: 5px 20px;
   transition: 0.1s;
 }
 .header__area .main__nav .nav .nav__links .main__red__button a,

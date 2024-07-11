@@ -2,6 +2,7 @@ import React from "react";
 import { about, interest } from "../data";
 import SectionHeading from "./SectionHeading";
 import Image from "next/image";
+import Link from "next/link";
 
 function About() {
   return (
@@ -27,11 +28,13 @@ function About() {
             <div className="right__services">
               <div className="section__heading mb-4">
                 <h2 className="text-3xl font-bold mb-2">About Me</h2>
-                <p className="text-gray-700">
-                  Self-taught developer with internship experience, specializing
-                  in front-end development. Committed to creating visually
-                  stunning and functional user interfaces. Seeking opportunities
-                  for growth and innovation in a dynamic environment.
+                <p className="text-gray-700 ">
+                  Hi, I'm Jeevan Shrestha, a software developer specializing in
+                  creating seamless and optimized web applications. With a
+                  passion for front-end development, I focus on delivering
+                  visually stunning and highly functional user interfaces. I'm
+                  always eager for opportunities to grow and innovate in a
+                  dynamic environment.
                 </p>
               </div>
               <div className="about__detail">
@@ -41,13 +44,13 @@ function About() {
                       key={index}
                       className="flex justify-center my-1 mr-3 p-1"
                     >
-                      <a
+                      <Link
                         href={item.link}
                         target="_self"
                         className="icon text-primary"
                       >
                         <i className={`fa ${item.icon}`}></i>
-                      </a>
+                      </Link>
                     </div>
                   ))}
                 </div>

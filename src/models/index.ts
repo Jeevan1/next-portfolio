@@ -1,3 +1,5 @@
+import { Url } from "next/dist/shared/lib/router/router";
+
 export type NavLinks = {
   id: number;
   title: string;
@@ -10,7 +12,7 @@ export type About = {
   title: string;
   icon: string;
   detail: string;
-  link?: string;
+  link: Url;
 };
 
 export type Interest = {

@@ -2,14 +2,15 @@ import React from "react";
 import { projects } from "../data";
 import { ProjectsProps } from "@/models";
 import Image from "next/image";
+import Link from "next/link";
 
 const ProjectItem = ({ projectsItem }: { projectsItem: ProjectsProps[] }) => {
   return projectsItem.map((project, idx) => (
     <li data-aos="fade-up" key={idx}>
       <div className="top__image border">
-        <a href="#">
+        <Link href="#">
           <Image src={project.image} alt="project" height={1200} width={1200} />
-        </a>
+        </Link>
       </div>
       <div className="bottom__content">
         <a href="#">
@@ -17,11 +18,11 @@ const ProjectItem = ({ projectsItem }: { projectsItem: ProjectsProps[] }) => {
         </a>
         <p>{project.description}</p>
         <div className="links flex gap-2 mt-3">
-          <div className="  cyan__button">
-            <a href={project.live}>Watch Live</a>
+          <div className=" cyan__button">
+            <Link href={project.live}>Watch Live</Link>
           </div>
           <div className="red__button">
-            <a href={project.source}>View Code</a>
+            <Link href={project.source}>View Code</Link>
           </div>
         </div>
       </div>
@@ -56,26 +57,26 @@ function Projects() {
                 />
                 <div className="info mt-4">
                   <div className="inner__content bg-white p-4 rounded-lg shadow-md">
-                    <a href="#">
+                    <Link href="#">
                       <h4 className="text-xl font-semibold text-cyan-500">
                         SEO Agency &amp; Digital Marketing
                       </h4>
-                    </a>
+                    </Link>
                     <p className="text-gray-600 mt-2">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Praesentium eius soluta pariatur quos nihil recusandae
                       velit earum vel laudantium iure...
                     </p>
                     <div className="links flex gap-2 mt-3">
-                      <div className="cyan__button bg-cyan-500 text-white px-4 py-2 rounded-lg">
-                        <a href="#">Watch Live</a>
+                      <div className="cyan__button ">
+                        <Link href="#">Watch Live</Link>
                       </div>
-                      <div className="red__button bg-red-500 text-white px-4 py-2 rounded-lg">
-                        <a href="#">View Code</a>
+                      <div className="red__button ">
+                        <Link href="#">View Code</Link>
                       </div>
                     </div>
-                    <div className="more cyan__button bg-cyan-500 text-white px-4 py-2 rounded-lg mt-3">
-                      <a href="#">Discover More</a>
+                    <div className="more cyan__button  mt-3 ms-3">
+                      <Link href="#">Discover More</Link>
                     </div>
                   </div>
                 </div>
