@@ -4,7 +4,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div id="contact" className="contact__us section">
+    <div id="contact" className="contact__us section overflow-x-hidden">
       <div className="container mx-auto px-4">
         <div className="row flex flex-wrap items-center ">
           <div className="col-lg-6 w-full lg:w-1/2  lg:mb-0">

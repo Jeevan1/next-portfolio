@@ -12,7 +12,7 @@ function Skills() {
     );
   };
   return (
-    <div id="skills" className="our__skills section">
+    <div id="skills" className="our__skills section overflow-x-hidden">
       <div className="container mx-auto px-4">
         <div className="row flex flex-wrap justify-center">
           <div className="col-lg-6 lg:w-1/2  lg:mb-0">
