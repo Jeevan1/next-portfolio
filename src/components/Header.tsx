@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { navLinks } from "../data";
 import Image from "next/image";
+import Link from "next/link";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(true);
@@ -115,14 +116,14 @@ function Header() {
                       className="nav__links block px-2 md:px-4 "
                       onClick={() => setMenuOpen(!menuOpen)}
                     >
-                      <a
+                      <Link
                         href={link.path}
                         className={`${
                           link.active === "active" ? "active" : ""
                         }`}
                       >
                         {link.title}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
