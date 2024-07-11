@@ -1,14 +1,4 @@
-import {
-  MainBanner,
-  Header,
-  About,
-  Skills,
-  Background,
-  Testimonials,
-  Projects,
-  Contact,
-  Footer,
-} from "@/components";
+import { Header, Footer } from "@/components";
 
 export default function PageLayout({
   children,
@@ -19,13 +9,7 @@ export default function PageLayout({
     <>
       <main>
         <Header />
-        <MainBanner />
-        <About />
-        <Skills />
-        <Background />
-        <Testimonials />
-        <Projects />
-        <Contact />
+        {children}
         <Footer />
       </main>
     </>
