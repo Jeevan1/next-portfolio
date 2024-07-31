@@ -12,11 +12,11 @@ function Skills() {
     );
   };
   return (
-    <div id="skills" className="our__skills section overflow-x-hidden">
+    <div id="skills" className="our__skills section ">
       <div className="container mx-auto px-4">
         <div className="row flex flex-wrap justify-center">
           <div className="col-lg-6 lg:w-1/2  lg:mb-0">
-            <div className="left__image" data-aos="fade-right">
+            <div className="left__image">
               <Image
                 src="/assets/images/skills/skills-left.png"
                 alt="skills img"
@@ -26,7 +26,7 @@ function Skills() {
             </div>
           </div>
           <div className="col-lg-6 lg:w-1/2">
-            <div className="right__skill flex flex-col" data-aos="fade-left">
+            <div className="right__skill flex flex-col">
               <SectionHeading
                 title={<Title />}
                 description={`This section provides an overview of my core competencies and proficiency in relevant technologies, demonstrating my expertise and capabilities in various aspects of software development.`}

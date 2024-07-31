@@ -661,7 +661,7 @@ header
   background-color: #fff;
   z-index: 99;
   position: sticky;
-  overflow: hidden;
+  /* overflow: hidden; */
   top: 100px;
   padding-top: 20px;
 }
@@ -682,9 +682,9 @@ header
 }
 .our__skills .right__skill .progress__section .progress__bar .skill__image {
   height: 80px;
-  min-width: 80px;
+  width: 90px;
   background-color: rgba(3, 164, 237, 0.2);
-  padding: 7px;
+  padding: 10px;
   border-radius: 10px;
 }
 .our__skills .right__skill .progress__section .progress__bar .skill__image img {

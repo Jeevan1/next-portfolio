@@ -34,7 +34,7 @@ function Projects() {
     <div id="projects" className="projects section ">
       <div className="container mx-auto px-4">
         <div className="row flex flex-wrap">
-          <div className="col-lg-6 w-full lg:w-1/2 position-relative  lg:mb-0">
+          <div className="col-lg-6 w-full lg:w-1/2 relative  lg:mb-0">
             <div className="left__content" data-aos="fade-right">
               <div className="section__heading sticky top-0">
                 <h3 className="text-3xl font-bold ">

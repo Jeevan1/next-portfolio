@@ -117,19 +117,19 @@ export const skills: Skills[] = [
     id: 1,
     title: "HTML",
     image: "/assets/images/skills/html.png",
-    percentage: 80,
+    percentage: 100,
   },
   {
     id: 2,
     title: "CSS",
     image: "/assets/images/skills/css.png",
-    percentage: 80,
+    percentage: 90,
   },
   {
     id: 3,
     title: "Javascript",
     image: "/assets/images/skills/js.png",
-    percentage: 70,
+    percentage: 90,
   },
   {
     id: 4,
@@ -141,7 +141,7 @@ export const skills: Skills[] = [
     id: 5,
     title: "Bootstrap",
     image: "/assets/images/skills/bootstrap.png",
-    percentage: 70,
+    percentage: 80,
   },
   {
     id: 6,
@@ -153,19 +153,37 @@ export const skills: Skills[] = [
     id: 7,
     title: "Git/github",
     image: "/assets/images/skills/github.png",
-    percentage: 60,
+    percentage: 90,
   },
   {
     id: 8,
     title: "React",
     image: "/assets/images/skills/react.png",
-    percentage: 60,
+    percentage: 90,
   },
   {
     id: 9,
     title: "Redux",
     image: "/assets/images/skills/redux.png",
-    percentage: 50,
+    percentage: 80,
+  },
+  {
+    id: 10,
+    title: "Tailwind",
+    image: "/assets/images/skills/tailwind.png",
+    percentage: 70,
+  },
+  {
+    id: 11,
+    title: "Next.js",
+    image: "/assets/images/skills/nextjs.png",
+    percentage: 80,
+  },
+  {
+    id: 12,
+    title: "React Native",
+    image: "/assets/images/skills/native.png",
+    percentage: 60,
   },
 ];
 

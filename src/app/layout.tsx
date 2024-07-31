@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {children}
-        <script src="https://kit.fontawesome.com/d95f511298.js"></script>
+        <script async src="https://kit.fontawesome.com/d95f511298.js"></script>
       </body>
     </html>
   );
