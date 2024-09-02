@@ -126,6 +126,19 @@ function Header() {
                       </Link>
                     </li>
                   ))}
+                  <li className="nav__links flex justify-center px-2 md:px-4 py-3">
+                    <div className="main__red__button py-2">
+                      <Link
+                        download="cv__jeevan__shrestha"
+                        href={"/assets/cv/CV_JEEVAN_SHRESTHA.pdf"}
+                        className=""
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Download CV
+                      </Link>
+                    </div>
+                  </li>
                 </ul>
               </div>
             </nav>
