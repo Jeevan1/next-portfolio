@@ -6,7 +6,7 @@ export default async function PageLayout({
 }: {
   children: React.ReactNode;
 }) {
-  await wait(2000);
+  await wait(500);
   return (
     <>
       <main>

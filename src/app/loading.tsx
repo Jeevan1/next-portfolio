@@ -6,7 +6,7 @@ export default function Loading() {
   return (
     <section className="h-screen flex justify-center items-center">
       <Image
-        src={"/assets/images/loader.gif"}
+        src={"/assets/images/loader.svg"}
         width={100}
         height={100}
         alt="abc"
