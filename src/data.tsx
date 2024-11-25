@@ -283,6 +283,15 @@ export const projects: ProjectsProps[] = [
   },
   {
     id: 2,
+    title: "Chat App",
+    image: "/assets/images/projects/chat-app.jpg",
+    description:
+      "Built a simple chat app using React Native and Firebase, featuring real-time messaging and a responsive user interface.",
+    live: "#top",
+    source: "https://github.com/Jeevan1/chat-app",
+  },
+  {
+    id: 3,
     title: "FarmMart: Online e-Commerce platform",
     image: "/assets/images/projects/farm.png",
     description: `Welcome to FarmMart: Online Marketplace, where agriculture
@@ -306,7 +315,7 @@ export const projects: ProjectsProps[] = [
     source: "https://github.com/Jeevan1/FarmManagement",
   },
   {
-    id: 3,
+    id: 4,
     title: "GEOSTORE: e-Commerce Platform",
     image: "/assets/images/projects/geostore.png",
     description: `Welcome to Geomart, your gateway to an exceptional online

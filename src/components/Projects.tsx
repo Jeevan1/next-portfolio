@@ -19,10 +19,14 @@ const ProjectItem = ({ projectsItem }: { projectsItem: ProjectsProps[] }) => {
         <p>{project.description}</p>
         <div className="links flex gap-2 mt-3">
           <div className=" cyan__button">
-            <Link href={project.live}>Watch Live</Link>
+            <Link href={project.live} target="_blank">
+              Watch Live
+            </Link>
           </div>
           <div className="red__button">
-            <Link href={project.source}>View Code</Link>
+            <Link href={project.source} target="_blank">
+              View Code
+            </Link>
           </div>
         </div>
       </div>
@@ -49,8 +53,8 @@ function Projects() {
               </div>
               <div className="mt-6">
                 <Image
-                  src="/assets/images/projects/oneup.png"
-                  alt="img"
+                  src="/assets/images/projects/it-company.png"
+                  alt="company"
                   className="w-full h-auto rounded-lg shadow-lg"
                   width={1200}
                   height={1200}
@@ -59,20 +63,31 @@ function Projects() {
                   <div className="inner__content bg-white p-4 rounded-lg shadow-md">
                     <Link href="#">
                       <h4 className="text-xl font-semibold text-cyan-500">
-                        SEO Agency &amp; Digital Marketing
+                        IT Company
                       </h4>
                     </Link>
                     <p className="text-gray-600 mt-2">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Praesentium eius soluta pariatur quos nihil recusandae
-                      velit earum vel laudantium iure...
+                      Developed an IT company website using Next.js,
+                      demonstrating expertise in building modern, responsive,
+                      and dynamic web applications tailored to professional
+                      needs.
                     </p>
                     <div className="links flex gap-2 mt-3">
                       <div className="cyan__button ">
-                        <Link href="#">Watch Live</Link>
+                        <Link
+                          href="https://my-it-company.netlify.app/"
+                          target="_blank"
+                        >
+                          Watch Live
+                        </Link>
                       </div>
                       <div className="red__button ">
-                        <Link href="#">View Code</Link>
+                        <Link
+                          href="https://github.com/Jeevan1/it-company"
+                          target="_blank"
+                        >
+                          View Code
+                        </Link>
                       </div>
                     </div>
                     <div className="more cyan__button  mt-3 ms-3">
