@@ -321,7 +321,7 @@ export const projects: ProjectsProps[] = [
     description:
       "An e-commerce mobile app built with React Native, providing a user-friendly interface for browsing products, managing cart, and making purchases.",
     live: "#top",
-    source: "https://github.com/Jeevan1/liquorstore",
+    source: "https://github.com/Jeevan1/ecom-app",
   },
   {
     id: 5,
