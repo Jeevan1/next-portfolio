@@ -283,7 +283,7 @@ export const projects: ProjectsProps[] = [
   },
   {
     id: 2,
-    title: "Chat App",
+    title: "Chat App (React Native)",
     image: "/assets/images/projects/chat-app.jpg",
     description:
       "Built a simple chat app using React Native and Firebase, featuring real-time messaging and a responsive user interface.",
@@ -316,6 +316,15 @@ export const projects: ProjectsProps[] = [
   },
   {
     id: 4,
+    title: "Online Liquor Store (React Native)",
+    image: "/assets/images/projects/liquor.png",
+    description:
+      "An e-commerce mobile app built with React Native, providing a user-friendly interface for browsing products, managing cart, and making purchases.",
+    live: "#top",
+    source: "https://github.com/Jeevan1/liquorstore",
+  },
+  {
+    id: 5,
     title: "GEOSTORE: e-Commerce Platform",
     image: "/assets/images/projects/geostore.png",
     description: `Welcome to Geomart, your gateway to an exceptional online
