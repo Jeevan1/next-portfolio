@@ -39,8 +39,8 @@ function Projects() {
       <div className="container mx-auto px-4">
         <div className="row flex flex-wrap">
           <div className="col-lg-6 w-full lg:w-1/2 relative  lg:mb-0">
-            <div className="left__content" data-aos="fade-right">
-              <div className="section__heading sticky top-0">
+            <div className="left__content gap-0" data-aos="fade-right">
+              <div className="section__heading mb-0 sticky top-0">
                 <h3 className="text-3xl font-bold ">
                   My <span className="text-cyan-500">Projects</span>
                 </h3>
@@ -52,30 +52,34 @@ function Projects() {
                 </p>
               </div>
               <div className="mt-6">
-                <Image
-                  src="/assets/images/projects/it-company.png"
-                  alt="company"
-                  className="w-full h-auto rounded-lg shadow-lg"
-                  width={1200}
-                  height={1200}
-                />
-                <div className="info mt-4">
+                <div className="top__image">
+                  <Image
+                    src="/assets/images/projects/geostore.png"
+                    alt="company"
+                    className="w-full h-auto rounded-lg shadow-lg"
+                    width={1200}
+                    height={1200}
+                  />
+                </div>
+                <div className="info">
                   <div className="inner__content bg-white p-4 rounded-lg shadow-md">
-                    <Link href="#">
+                    <Link href="https://nextgeostore.netlify.app/">
                       <h4 className="text-xl font-semibold text-cyan-500">
-                        IT Company
+                        Next-Geostore (Next.js)
                       </h4>
                     </Link>
-                    <p className="text-gray-600 mt-2">
-                      Developed an IT company website using Next.js,
-                      demonstrating expertise in building modern, responsive,
-                      and dynamic web applications tailored to professional
-                      needs.
+                    <p className="text-gray-600 mt-0">
+                      Geomart is an e-commerce platform designed to enhance
+                      online shopping with convenience and innovation. It
+                      features curated product selections across categories like
+                      fashion, electronics, and home essentials. The platform
+                      focuses on API integrations and Firebase for backend
+                      support.
                     </p>
                     <div className="links flex gap-2 mt-3">
                       <div className="cyan__button ">
                         <Link
-                          href="https://my-it-company.netlify.app/"
+                          href="https://nextgeostore.netlify.app/"
                           target="_blank"
                         >
                           Watch Live
@@ -83,7 +87,7 @@ function Projects() {
                       </div>
                       <div className="red__button ">
                         <Link
-                          href="https://github.com/Jeevan1/it-company"
+                          href="https://github.com/Jeevan1/next-geostore"
                           target="_blank"
                         >
                           View Code

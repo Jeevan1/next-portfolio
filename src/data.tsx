@@ -325,25 +325,11 @@ export const projects: ProjectsProps[] = [
   },
   {
     id: 5,
-    title: "GEOSTORE: e-Commerce Platform",
-    image: "/assets/images/projects/geostore.png",
-    description: `Welcome to Geomart, your gateway to an exceptional online
-    shopping experience. Geomart is not just another
-    e-commerce site; it's a destination where convenience,
-    quality, and innovation converge to redefine your shopping
-    journey. At Geomart, we're committed to offering you a
-    curated selection of products that cater to your diverse
-    needs. Whether you're looking for fashion, electronics,
-    home essentials, or more, our platform provides a seamless
-    shopping experience, complete with user-friendly features,
-    secure transactions, and personalized recommendations.
-    Join us on this exciting journey through the world of
-    online shopping. Explore the endless possibilities that
-    Geomart has to offer, as we strive to enhance your
-    lifestyle with a click. Discover our unique features and
-    exceptional customer service as we pave the way for the
-    future of e-commerce.`,
-    live: "https://geostorenp.netlify.app/",
-    source: "https://github.com/Jeevan1/geostore",
+    title: "IT Company (React Native)",
+    image: "/assets/images/projects/it-company.png",
+    description:
+      "Developed an IT company website using Next.js, demonstrating expertise in building modern, responsive, and dynamic web applications tailored to professional needs.",
+    live: "https://my-it-company.netlify.app/",
+    source: "https://github.com/Jeevan1/it-company",
   },
 ];
