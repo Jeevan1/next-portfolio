@@ -10,7 +10,9 @@ function MainBanner() {
             <div className="left__content" data-aos="fade-right">
               <h5>Hello &amp; Welcome</h5>
               <h2>
-                I am <span>Jeevan Shrestha</span> <span>Web</span> Developer
+                I am <span>Jeevan Shrestha</span>
+                <br />
+                &amp; <span>Web</span> Developer
               </h2>
               <p>
                 Hi, I'm Jeevan Shrestha, a software developer specializing in
