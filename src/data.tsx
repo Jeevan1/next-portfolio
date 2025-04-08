@@ -171,7 +171,7 @@ export const skills: Skills[] = [
     id: 10,
     title: "Tailwind",
     image: "/assets/images/skills/tailwind.png",
-    percentage: 70,
+    percentage: 80,
   },
   {
     id: 11,
@@ -183,7 +183,13 @@ export const skills: Skills[] = [
     id: 12,
     title: "React Native",
     image: "/assets/images/skills/native.png",
-    percentage: 60,
+    percentage: 50,
+  },
+  {
+    id: 13,
+    title: "Django",
+    image: "/assets/images/skills/django.png",
+    percentage: 50,
   },
 ];
 
@@ -259,7 +265,7 @@ export const testimonials: Testimonial[] = [
 export const projects: ProjectsProps[] = [
   {
     id: 1,
-    title: "BusinessBoard: Online Business Management",
+    title: "BusinessBoard: Online Business Management (React JS)",
     image: "/assets/images/projects/oneup.png",
     description: ` Welcome to the Business Dashboard project, where
         data-driven decision-making meets streamlined operations.
@@ -278,11 +284,45 @@ export const projects: ProjectsProps[] = [
         Business Dashboard and unlock the potential to enhance
         efficiency, drive innovation, and achieve your business
         goals.`,
-    live: "https://businessboard.netlify.app/",
+    live: "https://dashboard.sthajeevan.com.np",
     source: "https://github.com/Jeevan1/businessboard",
   },
   {
     id: 2,
+    title: "SPDSS School Website (React JS)",
+    image: "/assets/images/projects/spdss.png",
+    description: `The SPDSS School Website is a modern and responsive educational platform built using React JS. Designed for Shree Prabha Dhamkot Technical & Vocational Secondary School, the site provides comprehensive information about the institution, including academic programs, staff, announcements, and events. With a clean user interface and smooth navigation, the website aims to improve user engagement and provide easy access to resources for students, parents, and educators. Developed with a focus on performance and accessibility, the site reflects the school’s dedication to quality education and community service.`,
+    live: "https://spdss.edu.np/",
+    source: "#top",
+  },
+  {
+    id: 3,
+    title: "LifeLine Achham: Blood Donor (React JS)",
+    image: "/assets/images/projects/lifeline.png",
+    description:
+      "LifeLine Achham is a web application developed using React JS that serves as a comprehensive directory of active blood donors in Achham. The platform aims to bridge the gap between blood donors and recipients, facilitating timely assistance during emergencies. By providing an organized and accessible list of willing donors, LifeLine Achham plays a crucial role in strengthening the healthcare support system within the community.",
+    live: "https://lifelineachham.org/",
+    source: "#top",
+  },
+  {
+    id: 4,
+    title: "Recondition Hub: Vehicle Marketplace (Next JS)",
+    image: "/assets/images/projects/reconditionhub.png",
+    description:
+      "Recondition Hub is an online platform developed using React JS that connects buyers and sellers of reconditioned vehicles, including bikes and cars. The website allows trusted recondition houses to list their vehicles, enabling customers to browse, visit showrooms, and connect with sellers seamlessly. The platform aims to streamline the process of buying and selling reconditioned vehicles, providing a user-friendly interface and a comprehensive directory for vehicle enthusiasts and potential buyers.",
+    live: "https://reconditionhub.com",
+    source: "#top",
+  },
+  {
+    id: 5,
+    title: "Santosh Raj Construction and Supplies (Next JS)",
+    image: "/assets/images/projects/src.png",
+    description: `The SR Construction Company Website is a professional and responsive platform developed using Next JS. It showcases the company's construction services, portfolio, and client testimonials. The website features a clean design with intuitive navigation, allowing potential clients to easily explore the company's offerings and past projects. With a focus on performance and user experience, the site effectively represents SR Construction's commitment to quality and excellence in the construction industry.`,
+    live: "https://srconstruction.sthajeevan.com.np",
+    source: "https://github.com/Jeevan1/srcs",
+  },
+  {
+    id: 6,
     title: "Chat App (React Native)",
     image: "/assets/images/projects/chat-app.jpg",
     description:
@@ -291,7 +331,7 @@ export const projects: ProjectsProps[] = [
     source: "https://github.com/Jeevan1/chat-app",
   },
   {
-    id: 3,
+    id: 7,
     title: "FarmMart: Online e-Commerce platform",
     image: "/assets/images/projects/farm.png",
     description: `Welcome to FarmMart: Online Marketplace, where agriculture
@@ -315,7 +355,7 @@ export const projects: ProjectsProps[] = [
     source: "https://github.com/Jeevan1/FarmManagement",
   },
   {
-    id: 4,
+    id: 8,
     title: "Online Liquor Store (React Native)",
     image: "/assets/images/projects/liquor.png",
     description:
@@ -324,12 +364,12 @@ export const projects: ProjectsProps[] = [
     source: "https://github.com/Jeevan1/ecom-app",
   },
   {
-    id: 5,
+    id: 9,
     title: "IT Company (React Native)",
     image: "/assets/images/projects/it-company.png",
     description:
       "Developed an IT company website using Next.js, demonstrating expertise in building modern, responsive, and dynamic web applications tailored to professional needs.",
-    live: "https://my-it-company.netlify.app/",
+    live: "https://company.sthajeevan.com.np",
     source: "https://github.com/Jeevan1/it-company",
   },
 ];

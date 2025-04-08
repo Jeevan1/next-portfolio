@@ -63,7 +63,7 @@ function Projects() {
                 </div>
                 <div className="info">
                   <div className="inner__content bg-white p-4 rounded-lg shadow-md">
-                    <Link href="https://nextgeostore.netlify.app/">
+                    <Link href="https://geostore.sthajeevan.com.np/">
                       <h4 className="text-xl font-semibold text-cyan-500">
                         Next-Geostore (Next.js)
                       </h4>
@@ -79,7 +79,7 @@ function Projects() {
                     <div className="links flex gap-2 mt-3">
                       <div className="cyan__button ">
                         <Link
-                          href="https://nextgeostore.netlify.app/"
+                          href="https://geostore.sthajeevan.com.np/"
                           target="_blank"
                         >
                           Watch Live
