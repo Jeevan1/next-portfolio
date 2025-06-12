@@ -32,12 +32,16 @@ function MainBanner() {
             </div>
           </div>
           <div className=" lg:w-1/2">
-            <div className="right__content" data-aos="fade-left">
+            <div
+              className="right__content rounded-full overflow-hidden"
+              data-aos="fade-left"
+            >
               <Image
-                src="/assets/images/banner/banner-right-image.png"
+                src="/assets/images/banner/banner-right-image.jpg"
                 alt="banner__img"
-                height={500}
-                width={400}
+                height={800}
+                width={800}
+                className="w-full h-auto object-cover"
               />
             </div>
           </div>
