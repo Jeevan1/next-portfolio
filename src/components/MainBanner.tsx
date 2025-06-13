@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import AnimatedText from "./AnimatedText";
 
 function MainBanner() {
   return (
@@ -8,11 +9,19 @@ function MainBanner() {
         <div className="row flex flex-wrap items-center">
           <div className="col-lg-6  lg:w-1/2">
             <div className="left__content" data-aos="fade-right">
-              <h5>Hello &amp; Welcome</h5>
+              <h5>
+                <AnimatedText text="Hello & Welcome!" speed={100} />
+              </h5>
               <h2>
-                I am <span>Jeevan Shrestha</span>
-                <br />
-                &amp; <span>Web</span> Developer
+                I am{" "}
+                <span>
+                  <AnimatedText text="Jeevan Shrestha," speed={100} />
+                </span>
+                <br />a{" "}
+                <span>
+                  <AnimatedText text="Frontend" speed={100} />
+                </span>{" "}
+                <AnimatedText text="Developer." speed={150} />
               </h2>
               <p>
                 Hi, I'm Jeevan Shrestha, a software developer specializing in
