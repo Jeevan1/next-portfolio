@@ -15,7 +15,7 @@ body {
     text-wrap: balance;
   }
 }
-@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;400;500;600;700;800&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;400;500;600;700;800&display=swap"); */
 /* 
 ---------------------------------------------
 reset
@@ -343,24 +343,52 @@ header
 }
 .header__area .main__nav .nav .nav__links a,
 .header__area .main__nav .mobile__nav .nav__links a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 16px;
+  display: grid;
+  place-content: center;
   color: #2a2a2a;
-  text-transform: capitalize;
-  height: 40px;
-  border: transparent;
-  letter-spacing: 1px;
-  padding: 10px 7px;
+  margin: 0;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: all 0.3s ease;
+    background-color: #fe3f40;
+  }
+
+  &:hover::before {
+    transform: scaleX(1);
+  }
 }
 .header__area .main__nav .nav .nav__links a.active,
 .header__area .main__nav .mobile__nav .nav__links a.active {
   color: #fe3f40;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    display: grid;
+    place-content: center;
+    border-radius: 5px;
+    transform: scaleX(1);
+    transition: all 0.5s ease;
+    background-color: #fe3f40;
+  }
 }
 .header__area .main__nav .nav .nav__links a.active,
 .header__area .main__nav .mobile__nav .nav__links a.active {
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 .header__area .main__nav .nav .nav__links .main__red__button,
 .header__area .main__nav .mobile__nav .nav__links .main__red__button {
@@ -368,7 +396,7 @@ header
   width: fit-content;
   background-color: #fe3f40;
   border-radius: 25px;
-  padding: 5px 20px;
+  padding: 10px 20px;
   transition: 0.1s;
 }
 .header__area .main__nav .nav .nav__links .main__red__button a,
