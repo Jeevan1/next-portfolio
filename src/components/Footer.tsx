@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <footer className="footer">
-      <div className="container text-center">
+      <div className="container text-center bg-[#fff]">
         <div data-aos="">
           <p>© Copyright 2024 JDev. All Rights Reserved.</p>
           <span>

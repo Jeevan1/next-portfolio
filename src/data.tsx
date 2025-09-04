@@ -40,12 +40,12 @@ export const navLinks: NavLinks[] = [
     active: "",
     path: "#projects",
   },
-  {
-    id: 6,
-    title: "Contact",
-    active: "",
-    path: "#contact",
-  },
+  // {
+  //   id: 6,
+  //   title: "Contact",
+  //   active: "",
+  //   path: "#contact",
+  // },
 ];
 
 export const about: About[] = [
