@@ -7,7 +7,6 @@ import {
   Background,
   Testimonials,
   Projects,
-  Contact,
 } from "@/components";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -29,7 +28,7 @@ const Home = () => {
       <Background />
       <Testimonials />
       <Projects />
-      <Contact />
+      {/* <Contact /> */}
     </>
   );
 };
