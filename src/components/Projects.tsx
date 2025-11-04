@@ -54,8 +54,8 @@ function Projects() {
               <div className="mt-6">
                 <div className="top__image">
                   <Image
-                    src="/assets/images/projects/geostore.png"
-                    alt="company"
+                    src="/assets/images/projects/brdc.png"
+                    alt="ingos"
                     className="w-full h-auto rounded-lg shadow-lg"
                     width={1200}
                     height={1200}
@@ -63,25 +63,25 @@ function Projects() {
                 </div>
                 <div className="info">
                   <div className="inner__content bg-white p-4 rounded-lg shadow-md">
-                    <Link href="https://geostore.sthajeevan.com.np/">
+                    <Link href="https://brdc.com.np/">
                       <h4 className="text-xl font-semibold text-cyan-500">
-                        Next-Geostore (Next.js)
+                        BRDC (React Js and Django)
                       </h4>
                     </Link>
                     <p className="text-gray-600 mt-0">
-                      Geomart is an e-commerce platform designed to enhance
-                      online shopping with convenience and innovation. It
-                      features curated product selections across categories like
-                      fashion, electronics, and home essentials. The platform
-                      focuses on API integrations and Firebase for backend
-                      support.
+                      Developed a responsive and user-friendly frontend for the
+                      Baijnath Research and Development Center Pvt. Ltd., a
+                      multidisciplinary organization dedicated to sustainable
+                      development, research, and social impact initiatives. The
+                      project focuses on effectively presenting the
+                      organization’s mission, vision, services, and research
+                      programs while providing an intuitive interface for users
+                      to explore key initiatives, legal and governance services,
+                      and public welfare projects.
                     </p>
                     <div className="links flex gap-2 mt-3">
                       <div className="cyan__button ">
-                        <Link
-                          href="https://geostore.sthajeevan.com.np/"
-                          target="_blank"
-                        >
+                        <Link href="https://brdc.com.np/" target="_blank">
                           Watch Live
                         </Link>
                       </div>

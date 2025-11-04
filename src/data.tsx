@@ -332,6 +332,14 @@ export const projects: ProjectsProps[] = [
   },
   {
     id: 7,
+    title: "Tripura Sundari Campus (React Js)",
+    image: "/assets/images/projects/tsc.png",
+    description: "Build with React Js as frontend and django backend.",
+    live: "https://tripurasundaricampus.edu.np/",
+    source: "#top",
+  },
+  {
+    id: 8,
     title: "FarmMart: Online e-Commerce platform",
     image: "/assets/images/projects/farm.png",
     description: `Welcome to FarmMart: Online Marketplace, where agriculture
@@ -355,7 +363,7 @@ export const projects: ProjectsProps[] = [
     source: "https://github.com/Jeevan1/FarmManagement",
   },
   {
-    id: 8,
+    id: 9,
     title: "Online Liquor Store (React Native)",
     image: "/assets/images/projects/liquor.png",
     description:
@@ -364,7 +372,7 @@ export const projects: ProjectsProps[] = [
     source: "https://github.com/Jeevan1/ecom-app",
   },
   {
-    id: 9,
+    id: 10,
     title: "IT Company (React Native)",
     image: "/assets/images/projects/it-company.png",
     description:
