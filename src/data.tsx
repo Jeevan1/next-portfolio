@@ -223,6 +223,13 @@ export const education: Education[] = [
 export const experience: Experience[] = [
   {
     id: 1,
+    durations: "Oct 2025 - Present",
+    title: "Frontend Developer At Ajnalab",
+    degree: "Frontend Developer",
+    description: "Building responsive, user-friendly interfaces for HealthTech products at Ajna Lab, including hospital management systems like Ajna hOS and Clinic Pro, with REST API integration.",
+  },
+  {
+    id: 2,
     durations: "May 2023 – Sep 2023",
     title: "Frontend Developer Internship At Suga Inc.",
     degree: "Internship",
@@ -265,6 +272,15 @@ export const testimonials: Testimonial[] = [
 export const projects: ProjectsProps[] = [
   {
     id: 1,
+    title: "Join Your Event: Event Discovery Platform (Next JS)",
+    image: "/assets/images/projects/jye.webp",
+    description:
+      "Join Your Event is a Next.js-powered event discovery platform for Nepal, helping users find, join, and create their own local events — from meetups and concerts to workshops and conferences. The platform features multilingual support, category-based browsing, and a seamless event registration experience.",
+    live: "https://joinyourevent.com/",
+    source: "#top",
+  },
+  {
+    id: 2,
     title: "BusinessBoard: Online Business Management (React JS)",
     image: "/assets/images/projects/oneup.png",
     description: ` Welcome to the Business Dashboard project, where
@@ -288,7 +304,7 @@ export const projects: ProjectsProps[] = [
     source: "https://github.com/Jeevan1/businessboard",
   },
   {
-    id: 2,
+    id: 3,
     title: "SPDSS School Website (React JS)",
     image: "/assets/images/projects/spdss.png",
     description: `The SPDSS School Website is a modern and responsive educational platform built using React JS. Designed for Shree Prabha Dhamkot Technical & Vocational Secondary School, the site provides comprehensive information about the institution, including academic programs, staff, announcements, and events. With a clean user interface and smooth navigation, the website aims to improve user engagement and provide easy access to resources for students, parents, and educators. Developed with a focus on performance and accessibility, the site reflects the school’s dedication to quality education and community service.`,
@@ -296,7 +312,7 @@ export const projects: ProjectsProps[] = [
     source: "#top",
   },
   {
-    id: 3,
+    id: 4,
     title: "LifeLine Achham: Blood Donor (React JS)",
     image: "/assets/images/projects/lifeline.png",
     description:
@@ -305,7 +321,7 @@ export const projects: ProjectsProps[] = [
     source: "#top",
   },
   {
-    id: 4,
+    id: 5,
     title: "Recondition Hub: Vehicle Marketplace (Next JS)",
     image: "/assets/images/projects/reconditionhub.png",
     description:
@@ -314,7 +330,7 @@ export const projects: ProjectsProps[] = [
     source: "#top",
   },
   {
-    id: 5,
+    id: 6,
     title: "Santosh Raj Construction and Supplies (Next JS)",
     image: "/assets/images/projects/src.png",
     description: `The SR Construction Company Website is a professional and responsive platform developed using Next JS. It showcases the company's construction services, portfolio, and client testimonials. The website features a clean design with intuitive navigation, allowing potential clients to easily explore the company's offerings and past projects. With a focus on performance and user experience, the site effectively represents SR Construction's commitment to quality and excellence in the construction industry.`,
@@ -322,7 +338,7 @@ export const projects: ProjectsProps[] = [
     source: "https://github.com/Jeevan1/srcs",
   },
   {
-    id: 6,
+    id: 7,
     title: "Chat App (React Native)",
     image: "/assets/images/projects/chat-app.jpg",
     description:
@@ -331,7 +347,7 @@ export const projects: ProjectsProps[] = [
     source: "https://github.com/Jeevan1/chat-app",
   },
   {
-    id: 7,
+    id: 8,
     title: "Tripura Sundari Campus (React Js)",
     image: "/assets/images/projects/tsc.png",
     description: "Build with React Js as frontend and django backend.",
@@ -339,7 +355,7 @@ export const projects: ProjectsProps[] = [
     source: "#top",
   },
   {
-    id: 8,
+    id: 9,
     title: "FarmMart: Online e-Commerce platform",
     image: "/assets/images/projects/farm.png",
     description: `Welcome to FarmMart: Online Marketplace, where agriculture
@@ -363,7 +379,7 @@ export const projects: ProjectsProps[] = [
     source: "https://github.com/Jeevan1/FarmManagement",
   },
   {
-    id: 9,
+    id: 10,
     title: "Online Liquor Store (React Native)",
     image: "/assets/images/projects/liquor.png",
     description:
@@ -372,7 +388,7 @@ export const projects: ProjectsProps[] = [
     source: "https://github.com/Jeevan1/ecom-app",
   },
   {
-    id: 10,
+    id: 11,
     title: "IT Company (React Native)",
     image: "/assets/images/projects/it-company.png",
     description:
