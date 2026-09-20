@@ -12,7 +12,7 @@ function MainBanner() {
               <h5>
                 <AnimatedText text="Hello & Welcome!" speed={100} />
               </h5>
-              <h2>
+              <h1 className="font-extrabold">
                 I am{" "}
                 <span>
                   <AnimatedText text="Jeevan Shrestha," speed={100} />
@@ -22,8 +22,8 @@ function MainBanner() {
                   <AnimatedText text="Frontend" speed={100} />
                 </span>{" "}
                 <AnimatedText text="Developer." speed={150} />
-              </h2>
-              <p>
+              </h1>
+              <p className="text-base font-bold text-[#0a192f]/70">
                 Hi, I'm Jeevan Shrestha, a software developer specializing in
                 creating seamless and optimized web applications. With a passion
                 for front-end development, I focus on delivering visually
@@ -47,10 +47,11 @@ function MainBanner() {
             >
               <Image
                 src="/assets/images/banner/banner-right-image.jpg"
-                alt="banner__img"
+                alt="Jeevan Shrestha - Frontend Developer based in Kathmandu, Nepal"
                 height={800}
                 width={800}
                 className="w-full h-auto object-cover"
+                priority
               />
             </div>
           </div>

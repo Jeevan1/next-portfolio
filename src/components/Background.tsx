@@ -36,7 +36,7 @@ function Background() {
               <div className="background__items">
                 {education.map((edu, i) => (
                   <div className="background__item " data-aos="fade-up" key={i}>
-                    <div className="shadow px-4 py-3 ml-5">
+                    <div className="shadow px-4 py-3 ml-5 rounded-lg">
                       <p>{edu.durations}</p>
                       <h5>
                         {edu.title} (<small>{edu.degree}</small>)
@@ -63,7 +63,7 @@ function Background() {
                     data-aos="fade-up"
                     key={i}
                   >
-                    <div className="shadow px-4 py-3 ml-5">
+                    <div className="shadow px-4 py-3 ml-5 rounded-lg">
                       <p className="text-gray-600">{exp.durations}</p>
                       <h5>
                         {exp.title} (<small>{exp.degree}</small>)
