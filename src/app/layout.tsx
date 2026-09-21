@@ -24,7 +24,9 @@ export const metadata: Metadata = {
     "Portfolio",
     "UI/UX",
     "Kathmandu",
-    "Django Developer"
+    "Django Developer",
+    "jdev",
+    "jeevan developer",
   ],
 
   authors: [{ name: "Jeevan Shrestha", url: BASE_URL }],
